@@ -1,3 +1,39 @@
+text:
+  isin_code: "LU1301026206"
+  vl-eur: "194,6€"
+  aum: "428,1 M€"
+  
+  person_1_name: "Giulia CULOT"
+  person_1_job: "Gérante"
+  
+  person_2_name: "Luca FASAN"
+  person_2_job: "Gérant"
+  
+  person_3_name: "Claire MOUCHOTTE"
+  person_3_job: "Analyste ISR"
+  rounding: 2
+
+format:
+  font: "Arial"       # Police de caractère
+  size: 12           # Taille de la police
+  bold: true         # Texte en gras
+
+image:
+  path: "image.jpg"  
+  size: [2, 2]       # Taille de l'image (largeur, hauteur) en pouces
+
+array:
+  - Name: Alice
+    Age: 25
+  - Name: Bob
+    Age: 30
+
+array_from_excel:
+  path: "data.xlsx"  
+
+
+---------------------------------------------------------------------------------------------------
+
 isin_code: "LU1301026206"
 vl-eur: "194,6€"
 aum: "428,1 M€"
